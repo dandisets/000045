@@ -5,21 +5,8 @@
 access:
 - status: dandi:OpenAccess
 assetsSummary:
-  approach: []
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique: []
-  numberOfBytes: 97844923040
-  numberOfFiles: 6615
-  numberOfSubjects: 178
-  schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
-    name: House mouse
-    schemaKey: SpeciesType
-  variableMeasured: []
+  numberOfBytes: 0
+  numberOfFiles: 0
 citation: Last, First (2021) IBL behavioral data (Version draft) [Data set]. DANDI
   archive. https://dandiarchive.org/dandiset/000045/draft
 contributor:
