@@ -59,7 +59,8 @@ id: DANDI:000045/draft
 identifier: DANDI:000045
 keywords:
 - International Brain Laboratory
-manifestLocation: []
+manifestLocation:
+- https://api.dandiarchive.org/api/dandisets/000045/versions/draft/assets/
 name: IBL behavioral data
 relatedResource:
 - relation: dcite:IsDescribedBy
