@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000045
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.4.4/context.json
+about: []
 access:
 - status: dandi:OpenAccess
 assetsSummary:
@@ -32,8 +33,8 @@ assetsSummary:
     name: House mouse
     schemaKey: SpeciesType
   variableMeasured:
-  - ProcessingModule
   - BehavioralTimeSeries
+  - ProcessingModule
   - DecompositionSeries
   - Position
   - ElectrodeGroup
@@ -43,6 +44,7 @@ contributor:
 - includeInCitation: true
   name: Last, First
   schemaKey: Person
+dateCreated: '2020-11-17T13:49:29.314000+00:00'
 description: "This dataset is a result of a multi-institution, cross country collaboration
   of labs, called International Brain Laboratory conducting standardized experiments
   on decision-making in mice. In the experiment, mice are shown a visual grating on
@@ -55,18 +57,24 @@ description: "This dataset is a result of a multi-institution, cross country col
   Hausser, M., Hofer, S., Hu, F., Khanal, A., Krasniak, C., Laranjeira, I., … Zador,
   A. (2020). A standardized and reproducible method to measure decision-making in
   mice. BioRxiv, 2020.01.17.909838. https://doi.org/10.1101/2020.01.17.909838"
+ethicsApproval: []
 id: DANDI:000045/draft
 identifier: DANDI:000045
 keywords:
 - International Brain Laboratory
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000045/versions/draft/assets/
 name: IBL behavioral data
+protocol: []
 relatedResource:
 - relation: dcite:IsDescribedBy
   url: https://doi.org/10.1101/2020.01.17.909838
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.4.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000045/draft
 version: draft
+wasGeneratedBy: []
