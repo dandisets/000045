@@ -38,11 +38,61 @@ assetsSummary:
   - DecompositionSeries
   - Position
   - ElectrodeGroup
-citation: Last, First (2021) IBL behavioral data (Version draft) [Data set]. DANDI
-  archive. https://dandiarchive.org/dandiset/000045/draft
+citation: Last, First; The International Brain Laboratory; Aguillon-Rodriguez, Valeria;
+  Angelaki, Dora; Bayer, Hannah; Bonacchi, N. (2021) IBL behavioral data (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000045/draft
 contributor:
 - includeInCitation: true
   name: Last, First
+  schemaKey: Person
+- contactPoint: []
+  includeInCitation: true
+  name: The International Brain Laboratory
+  roleName:
+  - dcite:DataCollector
+  - dcite:DataCurator
+  - dcite:Conceptualization
+  - dcite:DataManager
+  - dcite:Maintainer
+  - dcite:Producer
+  schemaKey: Organization
+  url: https://www.internationalbrainlab.com/
+- affiliation: []
+  identifier: 0000-0002-8143-2352
+  includeInCitation: true
+  name: Aguillon-Rodriguez, Valeria
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-9650-8962
+  includeInCitation: true
+  name: Angelaki, Dora
+  roleName:
+  - dcite:Author
+  - dcite:Supervision
+  schemaKey: Person
+- affiliation: []
+  identifier: 0000-0002-5644-4124
+  includeInCitation: true
+  name: Bayer, Hannah
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  email: ' nbonacchi@gmail.com'
+  identifier: 0000-0001-5228-6918
+  includeInCitation: true
+  name: Bonacchi, N.
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  - dcite:FormalAnalysis
+  - dcite:Methodology
+  - dcite:ProjectAdministration
+  - dcite:Researcher
+  - dcite:Software
+  - dcite:Supervision
   schemaKey: Person
 dateCreated: '2020-11-17T13:49:29.314000+00:00'
 description: "This dataset is a result of a multi-institution, cross country collaboration
