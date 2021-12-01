@@ -39,17 +39,18 @@ assetsSummary:
   - DecompositionSeries
   - Position
   - ElectrodeGroup
-citation: Bonacchi, Niccolo (2021) IBL behavioral data (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000045/draft
+citation: International Brain Laboratory (2021) IBL behavioral data (Version draft)
+  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000045/draft
 contributor:
-- affiliation: []
-  identifier: 0000-0001-5228-6918
+- contactPoint: []
+  email: info+behavior@internationalbrainlab.org
   includeInCitation: true
-  name: Bonacchi, Niccolo
+  name: International Brain Laboratory
   roleName:
   - dcite:Author
   - dcite:ContactPerson
-  schemaKey: Person
+  schemaKey: Organization
+  url: internationalbrainlab.com
 dateCreated: '2020-11-17T13:49:29.314000+00:00'
 description: "This dataset is a result of a multi-institution, cross country collaboration
   of labs, called International Brain Laboratory conducting standardized experiments
