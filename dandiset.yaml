@@ -4,7 +4,11 @@
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about: []
 access:
-- schemaKey: AccessRequirements
+- contactPoint:
+    email: ibldata@internationalbrainlab.org
+    schemaKey: ContactPoint
+    url: https://internationalbrainlab.com
+  schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
   approach:
@@ -42,14 +46,14 @@ assetsSummary:
 citation: International Brain Laboratory (2021) IBL behavioral data (Version draft)
   [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000045/draft
 contributor:
-- contactPoint: []
-  email: info+behavior@internationalbrainlab.org
+- affiliation: []
+  email: ibldata@internationalbrainlab.org
   includeInCitation: true
   name: International Brain Laboratory
   roleName:
   - dcite:Author
   - dcite:ContactPerson
-  schemaKey: Organization
+  schemaKey: Person
   url: internationalbrainlab.com
 dateCreated: '2020-11-17T13:49:29.314000+00:00'
 description: "This dataset is a result of a multi-institution, cross country collaboration
