@@ -43,8 +43,8 @@ assetsSummary:
   - DecompositionSeries
   - Position
   - ElectrodeGroup
-citation: International Brain Laboratory (2021) IBL behavioral data (Version draft)
-  [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000045/draft
+citation: International Brain Laboratory (2021) IBL behavioral data (Version 0.211209.1413)
+  [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000045/0.211209.1413
 contributor:
 - contactPoint: []
   email: ibldata@internationalbrainlab.org
@@ -56,6 +56,7 @@ contributor:
   schemaKey: Organization
   url: https://internationalbrainlab.com
 dateCreated: '2020-11-17T13:49:29.314000+00:00'
+datePublished: '2021-12-09T14:12:45.778941+00:00'
 description: "This dataset is a result of a multi-institution, cross country collaboration
   of labs, called International Brain Laboratory conducting standardized experiments
   on decision-making in mice. In the experiment, mice are shown a visual grating on
@@ -68,17 +69,30 @@ description: "This dataset is a result of a multi-institution, cross country col
   Hausser, M., Hofer, S., Hu, F., Khanal, A., Krasniak, C., Laranjeira, I., … Zador,
   A. (2020). A standardized and reproducible method to measure decision-making in
   mice. BioRxiv, 2020.01.17.909838. https://doi.org/10.1101/2020.01.17.909838"
+doi: 10.48324/dandi.000045/0.211209.1413
 ethicsApproval: []
-id: DANDI:000045/draft
+id: DANDI:000045/0.211209.1413
 identifier: DANDI:000045
 keywords:
 - International Brain Laboratory
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000045/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000045/0.211209.1413/assets.yaml
 name: IBL behavioral data
 protocol: []
+publishedBy:
+  endDate: '2021-12-09T14:12:45.778941+00:00'
+  id: urn:uuid:dd722b98-0896-4ad0-a704-3eeea76bc0a7
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2021-12-09T14:12:45.778941+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:bfd52805-cf89-4184-b25c-be7263e6beec
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - relation: dcite:IsDescribedBy
   schemaKey: Resource
@@ -87,6 +101,6 @@ repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000045/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000045/0.211209.1413
+version: 0.211209.1413
 wasGeneratedBy: []
