@@ -82,7 +82,7 @@ protocol: []
 relatedResource:
 - relation: dcite:IsDescribedBy
   schemaKey: Resource
-  url: https://doi.org/10.1101/2020.01.17.909838
+  url: https://doi.org/10.7554/eLife.63711
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.6.0
